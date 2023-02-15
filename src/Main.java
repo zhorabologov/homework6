@@ -55,7 +55,7 @@ public class Main {
         //Задание 1.1
         int regularPayment = 15000;
         int amountOfSavings = 0;
-        while (amountOfSavings < 2459000) {
+        while (amountOfSavings <= 2459000) {
             amountOfSavings = amountOfSavings + amountOfSavings/100;
             amountOfSavings = amountOfSavings + regularPayment;
             System.out.println(amountOfSavings);
@@ -64,8 +64,16 @@ public class Main {
         //Задание 1.2
         int i = 10;
         while (i >= 1){
-            System.out.print( i) ;
+            System.out.print( i ) ;
             i--;
+            System.out.println( i );
+        }
+
+        int k = 1;
+        while (k <= 10){
+            System.out.print( k );
+            k++;
+            System.out.println( k );
         }
 }
 }
