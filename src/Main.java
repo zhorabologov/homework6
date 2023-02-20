@@ -75,6 +75,34 @@ public class Main {
             k++;
             System.out.println( k );
         }
-}
-}
+
+        //Задание 1.3
+
+        int population = 12000000;
+        int born = 17;
+        int death = 8;
+        int dif = born - death;
+        for(int j = 1; j <= 10; j++){
+            population += population * dif / 1000;
+        }
+        System.out.println("Численность населения составляет" + population);
+
+        //Задание 1.4
+
+        int sum = 12000000;
+        int initialAmount = 15000;
+        int p = 1;
+        while (i > 0){
+            sum += initialAmount * 0.07;
+    }
+
+
+
+
+
+    }
+
+
+
+
 
