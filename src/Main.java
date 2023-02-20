@@ -56,24 +56,24 @@ public class Main {
         int regularPayment = 15000;
         int amountOfSavings = 0;
         while (amountOfSavings <= 2459000) {
-            amountOfSavings = amountOfSavings + amountOfSavings/100;
+            amountOfSavings = amountOfSavings + amountOfSavings / 100;
             amountOfSavings = amountOfSavings + regularPayment;
             System.out.println(amountOfSavings);
         }
 
         //Задание 1.2
         int i = 10;
-        while (i >= 1){
-            System.out.print( i ) ;
+        while (i >= 1) {
+            System.out.print(i);
             i--;
-            System.out.println( i );
+            System.out.println(i);
         }
 
         int k = 1;
-        while (k <= 10){
-            System.out.print( k );
+        while (k <= 10) {
+            System.out.print(k);
             k++;
-            System.out.println( k );
+            System.out.println(k);
         }
 
         //Задание 1.3
@@ -82,7 +82,7 @@ public class Main {
         int born = 17;
         int death = 8;
         int dif = born - death;
-        for(int j = 1; j <= 10; j++){
+        for (int j = 1; j <= 10; j++) {
             population += population * dif / 1000;
         }
         System.out.println("Численность населения составляет" + population);
@@ -92,15 +92,14 @@ public class Main {
         int sum = 12000000;
         int initialAmount = 15000;
         int p = 1;
-        while (i > 0){
+        while (i > 0) {
             sum += initialAmount * 0.07;
+        }
     }
+}
 
 
 
-
-
-    }
 
 
 
